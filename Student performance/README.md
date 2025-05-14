@@ -14,10 +14,15 @@ The data was already cleaned so I didn't have to deal with missing values or any
 ## Handling categorical data
 There were several categorical columns that I handled:
 - gender: This column have three variables(Male, Female, Other). These variables did not have an inherent order/ranking so I used a Label encoder to encode it.
+  
 - part_time_job: This column have two variables(Yes, No). These variables also did not have an order/ranking so I used a Label encoder to encode it.
+  
 - diet_quality: This column have three variables(Poor, Fair, Good). These variables have an order/ranking, so I used an ordinal encoder to encode it.
+  
 - parental_education_level: This column have four variables(None, High School, Bachelor, Master). These variables have an order/ranking, so I used an ordinal encoder to encode it.
+  
 - internet_quality: This column have three variables(Poor, Average, Good). These variables have an order/ranking, so I used an ordinal encoder to encode it.
+  
 - extracurricular_participation: part_time_job: This column have two variables(Yes, No). These variables did not have an order/ranking so I used a Label encoder to encode it.
 
 ## Multicolinearity
@@ -29,7 +34,7 @@ To predict student performance based on their habits, I trained and evaluated mu
 - Linear Regression
 - Decision Tree Regression
 - Random Forest Regression
-  I trained and evaluated each model with and without feature selction to handle Overfitting and Underfitting
+I trained and evaluated each model with and without feature selction to handle Overfitting and Underfitting
 ## Observation
 ### I used the R2 score and mean absolute error metrics to measure the perofrmance of the models
 
