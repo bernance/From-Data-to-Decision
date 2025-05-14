@@ -27,7 +27,7 @@ There were several categorical columns that I handled:
 
 ## Multicolinearity
 Multicolinearity occurs when two or more independent variables/ features in a regression model are highly corelated with each other. This can reduce model interpretability or lower the predictive performance.
- I checked for multicolinearity using a heatmap and there was no instance of multicolinearity in this dataset
+I checked for multicolinearity using a heatmap and there was no instance of multicolinearity in this dataset
 
 ## Model Training and Evaluation
 To predict student performance based on their habits, I trained and evaluated multiple machine learning algorithms, including:
